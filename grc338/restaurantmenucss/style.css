@@ -1,0 +1,37 @@
+/* CSS STYLE SHEET */
+
+h1{
+    color:rgb(123,172,250);
+    font-size: 4em;
+    margin: .5em 2em 1em 3em;
+    font-family:serif;
+}
+
+h2{
+
+    font-family:sans-serif;
+    font-size: 2em;
+    color: indianred;
+}
+
+body{
+    background-color: floralwhite;
+}
+
+.price{
+    color:dimgrey;
+    font-family: sans-serif;
+    font-size: .7em;
+    
+}
+
+.foodtitles{
+    color:cadetblue;
+    font-family: serif;
+    font-size 1.2em;
+    
+}
+.description{
+    font-family: sans-serif;
+    font-size: .9em;
+}
