@@ -1,6 +1,40 @@
 /*CSS DOCUMENT*/
 
-
 img {
-width: 70%;}
+width: 100%;
+background-color: #FFFBC3;
+}
+
+div.container{
+    max-width: 55em;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+   background-color: #FFFBC3;
+    
+    
+}
+
+div.intro{
+    font-family: serif;
+    font-size: 1.35em;
+    width: 60%;
+    max-width: 55em;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(255,255,255);
+   
+    
+}
+
+div.maincontent{
+    max-width: 37em;
+    margin: auto;
+    background-color: #E4FAFF;
+ 
+    
+    
+   
+}
 
