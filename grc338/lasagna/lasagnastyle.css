@@ -21,6 +21,7 @@ div.intro{
     width: 60%;
     max-width: 55em;
     margin: auto;
+    text-align: center;
     font-family: sans-serif;
     background-color: rgb(255,255,255);
    
@@ -28,7 +29,7 @@ div.intro{
 }
 
 div.maincontent{
-    max-width: 50em;
+    max-width: 37em;
     margin: auto;
     background-color: #E4FAFF;
  
