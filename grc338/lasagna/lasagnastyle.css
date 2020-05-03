@@ -27,7 +27,9 @@ h1{
 h2{
     font-size: 1.85em;
 }
-
+p{
+    font-size: 1.3em;
+}
 
 div.intro{
     width: 80%;
