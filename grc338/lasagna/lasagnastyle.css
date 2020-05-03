@@ -6,29 +6,35 @@ background-color: #FFFBC3;
 }
 
 div.container{
-    max-width: 55em;
+    max-width: 165em;
     margin: auto;
     text-align: center;
-    font-family: sans-serif;
+    font-family: serif;
    background-color: #FFFBC3;
+    font-size: 3.8em;
+
     
     
 }
 
 div.intro{
     font-family: serif;
-    font-size: 1.35em;
-    width: 60%;
+    font-size: 1.935em;
+    width: 90%;
     max-width: 55em;
     margin: auto;
     text-align: center;
     font-family: sans-serif;
-    background-color: rgb(255,255,255);
-   
+    
     
 }
 
 div.maincontent{
-    max-width: 37em;
+    max-width: 55em;
     margin: auto;
-    background-color: rgb(255,255,255);
+    width: 100%;
+    background-color: rgb(250,250,255);
+    font-size: 1.535em; 
+   
+}
+
