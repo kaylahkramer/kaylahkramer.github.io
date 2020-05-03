@@ -31,6 +31,10 @@ p{
     font-size: 1.3em;
 }
 
+h3{
+    background-color: #D05E27;
+}
+
 div.intro{
     width: 80%;
     max-width: 55em;
