@@ -20,6 +20,15 @@ div.container{
     
 }
 
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.85em;
+}
+
+
 div.intro{
     width: 80%;
     max-width: 55em;
