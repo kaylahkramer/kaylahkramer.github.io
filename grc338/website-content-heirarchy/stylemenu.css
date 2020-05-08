@@ -1,6 +1,9 @@
 /* CSS */
 img{
-    width: 100%
+    width: 60%
+}
+h1{
+    text-align: center;
 }
 h2{
     font-family: sans-serif;
