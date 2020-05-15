@@ -2,7 +2,9 @@
 img{
     width: 80%
 }
-
+#logo img{
+    max-height: 1em;
+}
 h1{
     width:20em;
     font-size: 3em;
@@ -33,7 +35,6 @@ nav ul li a{
     color: #B0732E;
     
 }
-
 
 nav ul li {
     list-style: none;
