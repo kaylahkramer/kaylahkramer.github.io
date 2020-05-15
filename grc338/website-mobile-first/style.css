@@ -14,7 +14,10 @@ h2{
      color: #B0732E;
     font-family: sans-serif;
     
-
+}
+h3 {
+    font-family: serif;
+    font-size: 2em;
 }
 nav {
     float: left;
