@@ -20,6 +20,12 @@ h2{
 h3 {
     font-family: serif;
     font-size: 2em;
+    font-weight: 200;
+  
+}
+
+p{
+    font-weight: lighter;
 }
 nav {
     float: left;
@@ -27,7 +33,7 @@ nav {
 }
 
 nav ul {
-    padding: 2;
+    padding: 1em;
 }
 
 nav ul li a{
