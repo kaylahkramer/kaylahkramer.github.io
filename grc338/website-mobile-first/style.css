@@ -1,12 +1,10 @@
 /* CSS */
 img{
-    width: 80%
+    width: 100%
 }
-#logo img{
-    max-height: 1em;
-}
+
 h1{
-    width:20em;
+    width:9em;
     font-size: 3em;
     float: left;
 }
@@ -28,8 +26,8 @@ p{
     font-weight: lighter;
 }
 nav {
-    float: left;
-    padding-top: 1.5em;
+    float: right;
+    padding-top: 2.5em;
 }
 
 nav ul {
