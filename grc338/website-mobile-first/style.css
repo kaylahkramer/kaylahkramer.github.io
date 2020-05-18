@@ -4,23 +4,29 @@ img{
 }
 
 h1{
-    width:9em;
+    width:8em;
     font-size: 2em;
     font-family: sans-serif;
 }
 
 h2{
-    align-content: center;
+    text-align: center;
      color: #B0732E;
     font-family: sans-serif;
-     font-size: 4em;
+     font-size: 2.5em;
     
 }
 h3 {
-     font-family: sans-serif;
-    font-size: 2.5em;
-    font-weight: 200;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: 100;
   
+}
+
+h4{
+     color: #B0732E;
+    font-family: sans-serif;
+     font-size: 2em;
 }
 
 p{
@@ -33,7 +39,7 @@ nav {
 }
 
 nav ul {
-    padding: 1em;
+    padding: .5em;
 }
 
 nav ul li a{
@@ -45,7 +51,7 @@ nav ul li a{
 nav ul li {
     list-style: none;
     display: inline;
-    margin-right: 2em;
+    margin-right: 1em;
     font-size: 1em;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -53,14 +59,9 @@ nav ul li {
     letter-spacing: .1em;
 }
 
-div.mainimage {
-    width: 150%;
-    margin: center;   
-
-}
 
 div.logo {
-    width: 80%;
+    width: 70%;
     margin: right;   
 
 }
