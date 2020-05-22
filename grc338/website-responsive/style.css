@@ -1,0 +1,91 @@
+/* CSS */
+img{
+    width: 100%
+}
+
+h1{
+    width:8em;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+h2{
+     color: #B0732E;
+    font-family: sans-serif;
+     font-size: 3em;
+    
+}
+h3 {
+    color: #B0732E;
+    font-family: sans-serif;
+     font-size: 2.8em;
+    font-weight: 450;
+  
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 2.3em;
+    font-weight: 300;
+    color: #000000;
+
+    
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+nav {
+    float: right;
+    padding-top: .5em;
+}
+
+nav ul {
+    padding: .5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #B0732E;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 1em;
+    font-size: 1em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+
+div.logo {
+    width: 90%;   
+
+}
+
+.foodtitles{
+    color: #9C5C09;
+    font-family: sans-serif;
+    font-size 2.4em;
+    font-weight: 400;
+}
+
+div.blurb{
+    max-width: 25em;
+}
+@media only screen and (min-width: 25em) {
+    div.blurb{
+        width: 45%;
+        float: left;
+        margin-right: 1em;
+    
+}
+    
+}
