@@ -46,10 +46,12 @@ p{
     font-size: 2.5em;
     font-weight: 100;
 }
-
-
+nav {
+    float: right;
+}
 nav ul {
     content-align: center;
+     float: right;
 }
 
 nav ul li a{
