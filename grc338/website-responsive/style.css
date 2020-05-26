@@ -71,12 +71,6 @@ nav ul li {
     letter-spacing: .2em;
 }
 
-div.container {
-    max-width: 60em;
-    margin: auto;
-    border-top: 1em solid rgb(0,0,0);
-}
-
 div.logo {
     width: 90%;   
 
