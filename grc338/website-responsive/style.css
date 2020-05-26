@@ -1,34 +1,35 @@
 /* CSS */
 img{
-    width: 70%
+    width: 80%
     
 }
 
 .logo {
-    width: 15%
+    width: 20%
     
 }
 
 h1{
-    font-size: 5em;
+    font-size: 6em;
     color: #B0732E;
     font-family: sans-serif;
     border: 2em solid #FFDAA5;
     border-radius: 10em;
     font-weight: bold;
-     padding: .5em .5em .5em 10em;
+     padding: .5em .5em .5em 12em;
 }
 
 h2{
     color: #B0732E;
     font-family: sans-serif;
-    font-size: 4em;
+    font-size: 5em;
 }
 h3 {
-    color:#000000;
+    color: rgb(0,0,0);
     font-family: sans-serif;
-    font-size: 3em;
-    font-weight: 300;
+    font-size:4em;
+    font-weight: 200;
+    padding: .5em .0em .5em .5em;
   
 }
 
@@ -36,7 +37,7 @@ h4{
     font-family: sans-serif;
     font-size: 3.3em;
     font-weight: 300;
-    color: #000000;
+    color: rgb(0,0,0);
 
     
 }
@@ -50,7 +51,6 @@ nav {
     float: right;
 }
 nav ul {
-    content-align: center;
      float: right;
 }
 
@@ -71,10 +71,6 @@ nav ul li {
     letter-spacing: .2em;
 }
 
-div.logo {
-    width: 90%;   
-
-}
 
 .foodtitles{
     color: #9C5C09;
@@ -84,21 +80,20 @@ div.logo {
 }
 
 div.section {
-    max-width: 55em;
+    max-width: 30em;
     
 }
 
-@media only screen and (min-width: 55em) {
+@media only screen and (min-width: 30em) {
   div.section {
-      width: 45%;
+      width:60%;
       float: left;
-      margin-right: 2em;
+      margin-right: 4.5em;
     }  
 }
 
 @media only screen and (min-width: 36em) {
     div.section {
-        width: 22%;
+        width: 24%;
     }
 }
-
