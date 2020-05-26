@@ -15,8 +15,8 @@ h1{
     font-family: sans-serif;
     border: 2em solid #FFDAA5;
     border-radius: 10em;
-    content-align: center;
     font-weight: bold;
+     padding: .5em .5em .5em 10em;
 }
 
 h2{
