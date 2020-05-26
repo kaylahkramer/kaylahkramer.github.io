@@ -84,11 +84,11 @@ div.logo {
 }
 
 div.section {
-    max-width: 25em;
+    max-width: 55em;
     
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 55em) {
   div.section {
       width: 45%;
       float: left;
