@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f8ca;
+    
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color:#8A9F58;
+    text-decoration: none;
+} 
+h1 img{
+    margin: 0 1.3em;
+}
+
+nav ul, nav li{
+    list-style: none;
+    margin: 0 0 0 3.1em;
+    padding 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+nav{
+    transition: 0.2s ease all; 
+}
+
+nav > ul{
+    display: flex;
+    font-size: 1.1em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    letter-spacing: 1px;
+}
+
+nav > ul > li{
+    min-width: 12ch;
+    position: relative;
+    /* flex-grow: 1; shrink: 1;basis: auto;*/
+    flex: 1; 
+}
+nav li ul {
+    /*display: none;*/
+    position: absolute;
+    top: 100%;
+    left: 0; 
+}
+nav ul ul {
+    display: none;
+}
+nav a{
+    /*this is for the ul inside of the ul*/
+    display: block;
+    height: 100%;
+    line-height: 50px;
+    padding: 0 .5em 0 1em;
+    
+}
+nav a:hover{
+    background: rgba(255, 255, 255, 0.86);
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+
+@media (max-width: 1024px){
+    nav {
+        /*margin-top: -1000px;*/
+        align-content: right;
+    }
+    
+    header, nav > ul {
+        display: block;
+        font-size: 1.5em;
+        
+    }
+    nav ul ul {`
+        display: 1w  `block;
+        position: relative;
+        
+
+    }
+}
